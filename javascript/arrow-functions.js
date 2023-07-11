@@ -120,9 +120,10 @@ function getBlueProducts() {
 // Get the total price of all the products using the reduce method.
 function getTotalPrice() {
   // Replace this with your code
-  const blueProducts = products.filter((product) => product.color.includes('blue'));
-
-  return blueProducts;
+  const totalPrice = products.reduce((acc, product) => acc + product.price, 0);
+  
+  return totalPrice;
+  
 }
 
 export {

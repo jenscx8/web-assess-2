@@ -147,19 +147,19 @@ function findPairs() {
 
 // For these problems we will be using the objects below, contactInfo and shippingInfo,
 // as well as objects that you will make based off these two.
-const contactInfo = {
-  name: 'Helen',
-  phoneNumber: 1234445555,
-  email: 'helen@mymail.com',
-};
+// const contactInfo = {
+//   name: 'Helen',
+//   phoneNumber: 1234445555,
+//   email: 'helen@mymail.com',
+// };
 
-const shippingInfo = {
-  name: 'Helen',
-  street: '100 E. Main Street',
-  city: 'Anytown',
-  state: 'AZ',
-  zipCode: 85004,
-};
+// const shippingInfo = {
+//   name: 'Helen',
+//   street: '100 E. Main Street',
+//   city: 'Anytown',
+//   state: 'AZ',
+//   zipCode: 85004,
+// };
 
 // Using the Object.assign method, create a new object that combines the contactInfo and
 // shippingInfo objects and return it.

@@ -12,3 +12,72 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    z-index: 100;
+}
+
+.logo {}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+.links li {
+    margin-left: 15px;
+}
+
+.links li:first-child {
+    margin-left: 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.paragraph {
+    width: 30em;
+}
+
+.sidebar {
+    float: right;
+    padding-top: 5em;
+    padding-right: 3em;
+}
+
+
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    width: 30em;
+}
+
+#card1 {
+    box-shadow: 0px 0px 11px 8px rgb(0 0 0 / 0.2);
+    margin: 20px;
+    padding: 15px;
+
+}
+
+#card2 {
+    box-shadow: 0px 0px 11px 8px rgb(0 0 0 / 0.2);
+    margin: 20px;
+    padding: 30px;
+
+}
