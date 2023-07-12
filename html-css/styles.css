@@ -13,6 +13,11 @@ the font is called 'nunito' and can be found on google fonts
 
 */
 
+body {
+   font-family: "Nunito";
+    margin: 0;
+}
+
 .navbar {
     position: fixed;
     top: 0;
@@ -21,21 +26,24 @@ the font is called 'nunito' and can be found on google fonts
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: black;
+    padding: 6px 9px;
+    background-color:rgb(37, 37, 37);
     color: white;
     z-index: 100;
 }
 
-.logo {}
+.logo {
+    color: rgb(42, 171, 226);
+}
 
 .links {
     display: flex;
     list-style: none;
+    padding-right: 10px;
 }
 
 .links li {
-    margin-left: 15px;
+    margin-left: 60px;
 }
 
 .links li:first-child {
@@ -48,31 +56,46 @@ the font is called 'nunito' and can be found on google fonts
 
 }
 
+article {
+    padding-top: 95px;
+    padding-left: 95px;
+}
 
 .paragraph {
     width: 30em;
 }
 
-.sidebar {
-    float: right;
-    padding-top: 5em;
-    padding-right: 3em;
+.imagegallery {
+    padding-left: 95px;
 }
 
-
+#viewlink {
+    padding-left: 390px;
+    text-decoration: none;
+    color:rgb(42, 171, 226);
+}
 
 .images {
     display: flex;
     flex-flow: row wrap;
-    gap: 10px;
+    gap: 30px;
     width: 30em;
+}
+
+.sidebar {
+    float: right;
+    padding-top: 6em;
+    padding-right: 6em;
 }
 
 #card1 {
     box-shadow: 0px 0px 11px 8px rgb(0 0 0 / 0.2);
     margin: 20px;
     padding: 15px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #card2 {
@@ -80,4 +103,25 @@ the font is called 'nunito' and can be found on google fonts
     margin: 20px;
     padding: 30px;
 
+}
+
+footer {
+    width: 100%;
+    background: rgb(42, 171, 226);
+    padding: 15px;
+}
+
+#questionmark {
+    position: fixed;
+    bottom: 9px;
+    right: 6px;
+    background:  rgb(42, 171, 226);
+    height: 44px;
+    width: 44px;
+    border: solid black 2px;
+    border-radius: 100%;
+    z-index: 1000;
+    padding: 6px;
+    font-size: 36px;
+    text-align: center;
 }
